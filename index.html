@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="section-holder">
+
+    <header class="main-head">
+ 
+    <div class="logo">
+ 
+    <h2>Aura</h2>
+         
+    </div>
+
+    <nav class="nav-bar" style="cursor:pointer;">
+
+     <li class="a">Home</li>
+     <li class="a">about us</li>
+     <li class="a">pricing</li>
+     <li class="a">contact us</li>
+
+    </nav>
+  
+    <div class="two-button">
+    <button class="info">Info</button>
+    <h1><i class='bx bx-menu-alt-left'id="navIcon" onclick="showcase()"></i></h1>
+    <div class="contentNav" id="mobileNav">
+      <span class="closing-button"><i class='bx bx-window-close' id="closeNav" onclick="closeButt()"></i></span>
+    <div class="content-holder" id="menuClick">
+        <li class="a"> <i class='bx bx-home-alt'></i>Home</li>
+        <li class="a"><i class='bx bx-receipt'></i>about us</li>
+        <li class="a"><i class='bx bxs-wallet-alt'></i>pricing</li>
+        <li class="a"><i class='bx bxl-gmail'></i>contact us</li>
+    </div>
+    </section>
+    </div>
+
+    </div>
+
+    </header>
+
+    <section class="hero-page">
+
+    <div class="text-content">
+
+    <h1>Aura Online <br> <span class="color"> trading </span>Course</h1>
+    <p class="para">Aura company provide a highly quality video and make you understand core concept of the trading<br>
+       we have a highly expriences teacher for teaching the course for you. </p>
+    </p>
+    <br>
+    <button class="join-now">join now</button>
+    <button class="video-course">Email Contact</button>
+
+    </div>
+
+    <div class="mobile">
+
+    <img src="buying.jpg" width="600px">
+
+    </div>
+  
+    </section>
+
+    <script>
+
+    let humberger = document.getElementById("navIcon");
+
+    let closingButton = document.getElementById("closeNav");
+
+    let menushow = document.querySelector(".contentNav");
+
+    console.log(menushow);
+
+  
+    function showcase()
+    {
+     
+    menushow.style.display = "flex";
+
+    }
+
+    function closeButt()
+    {
+
+     menushow.style.display = "none";
+
+    }
+
+
+ 
+
+
+    </script>
+
+    
+
+    
+
+
+
+    <!----
+
+    <section class="mini-feature">
+  
+    <div>
+ 
+    <img src="video.png" width="65px">
+    <h2>high quality video class</h2>
+
+    </div>
+
+    <div>
+
+    <img src="video-editing.png" width="65px">
+    <h2>20min avg run time</h2>
+
+    </div>
+
+    <div>
+
+    <img src="man.png" width="65px">
+    <h2>50+ member on the acess</h2>
+
+    </div>
+
+    </section>
+
+  <!-----
+
+      <div class="image-main">
+    
+    <img src="online learning.png" alt="" class="online">
+  
+    </div>
+  
+
+
+
+    
+
+     
+    
+</body>
+</html>
